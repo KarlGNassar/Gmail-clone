@@ -1,6 +1,7 @@
 import React from 'react'
 import './EmailList.css'
 import Section from './Section'
+import EmailRow from './EmailRow'
 import { Checkbox, IconButton } from '@material-ui/core'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown'
 import RedoIcon from '@material-ui/icons/Redo'
@@ -59,7 +60,30 @@ function EmailList() {
             </div>
 
             <div className="emailList__list">
-                
+                <EmailRow
+                    title="Twitch"
+                    subject="Hey fellow streamers!!"
+                    description="This is a test wadup wadup wadup wadup wadup"
+                    time="10pm"
+                />
+                <EmailRow
+                    title="Twitch"
+                    subject="Hey fellow streamers!!"
+                    description="This is a test"
+                    time="10pm"
+                />
+                <EmailRow
+                    title="Twitch"
+                    subject="Hey fellow streamers!!"
+                    description="This is a test"
+                    time="10pm"
+                />
+                <EmailRow
+                    title="Twitch"
+                    subject="Hey fellow streamers!!"
+                    description="This is a test"
+                    time="10pm"
+                />
             </div>
         </div>
     )
