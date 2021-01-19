@@ -36,3 +36,9 @@
   padding: 10px;
   font-size: medium;
 }
+
+.header__right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
