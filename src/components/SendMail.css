@@ -62,4 +62,5 @@
   color: red;
   text-align: right;
   padding: 2px;
+  z-index: 3;
 }
