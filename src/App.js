@@ -25,11 +25,9 @@ function App() {
           email: user.email,
           photoUrl: user.photoURL,
         }))
-      } else {
-
-      }
+      } 
     })
-  }, [])
+  }, [dispatch])
 
   return (
     <Router>
