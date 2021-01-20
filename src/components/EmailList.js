@@ -77,7 +77,8 @@ function EmailList() {
                 {emails.map(email => (
                     <EmailRow
                         key={email.id}
-                        title={email.data.title}
+                        id={email.id}
+                        title={email.data.to}
                         subject={email.data.subject}
                         description={email.data.message}
                         time={new Date(email.data.timestamp?.seconds * 1000).toUTCString()}

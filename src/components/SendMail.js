@@ -9,7 +9,7 @@ import { db } from '../firebase'
 import firebase from 'firebase'
 
 function SendMail() {
-    const { register, handleSubmit, watch, errors} = useForm()
+    const { register, handleSubmit, errors} = useForm()
 
     const dispatch = useDispatch()
 
@@ -22,7 +22,6 @@ function SendMail() {
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             }
         )
-        console.log(formdata)
         dispatch(closeSendMessage())
     }
 

@@ -27,9 +27,21 @@
   /*  */
 }
 
+.emailList__list {
+  padding-bottom: 20px;
+}
+
 @media (max-width: 850px) {
   .emailList__sections {
     display: flex;
     flex-direction: column;
   }
+}
+
+.emailList::-webkit-scrollbar {
+  display: none;
+}
+
+.emailList {
+  scrollbar-width: none;
 }
