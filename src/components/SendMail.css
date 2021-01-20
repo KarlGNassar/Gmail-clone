@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.sendMail__close:hover {
+  color: white;
+}
+
 .sendMail > form {
   display: flex;
   flex: 1;

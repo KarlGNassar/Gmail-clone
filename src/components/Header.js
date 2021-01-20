@@ -20,6 +20,7 @@ function Header() {
         })
     }
 
+
     return (
         <div className="header">
             <div className="header__left">
@@ -27,7 +28,8 @@ function Header() {
                     <MenuIcon />
                 </IconButton>
 
-                <img src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png" alt="Gmail logo"/>
+                <img src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" alt="Gmail logo"/>
+                <p className="header__logoName">Kmail</p>
             </div>
 
             <div className="header__middle">

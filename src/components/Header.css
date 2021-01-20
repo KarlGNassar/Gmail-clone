@@ -12,8 +12,15 @@
 
 .header__left > img {
   object-fit: contain;
-  height: 80px;
+  height: 45px;
   margin-left: 5px;
+  padding-right: 10px;
+}
+
+.header__logoName {
+  color: #989898;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .header__middle {
